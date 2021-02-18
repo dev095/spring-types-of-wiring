@@ -9,7 +9,7 @@ public class Island2 {
     @Autowired
     public Island2(Wood3 wood) {
         this.wood = wood;
-    }
+    } //через конструктор
 
     @Override
     public String toString() {

@@ -9,6 +9,10 @@ public class Wood3 {
     private final Rabbit4 rabbit;
 
     @Autowired
+    public Rabbit4 setRabbit(Rabbit4 rabbit) { //через setter
+        return rabbit;
+    }
+
     public Wood3(Rabbit4 rabbit) {
         this.rabbit = rabbit;
     }

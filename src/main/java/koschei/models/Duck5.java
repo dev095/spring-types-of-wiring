@@ -11,7 +11,7 @@ public class Duck5 {
     @Autowired
     public Duck5(Egg6 egg) {
         this.egg = egg;
-    }
+    } //через конструктор
 
     @Override
     public String toString() {

@@ -11,7 +11,7 @@ public class Egg6 {
     @Autowired
     public Egg6(Needle7 needle) {
         this.needle = needle;
-    }
+    } //через конструктор
 
     @Override
     public String toString() {
